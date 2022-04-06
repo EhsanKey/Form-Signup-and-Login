@@ -44,7 +44,7 @@ const Signup = () => {
     const submitHandler = event => {
         event.preventDefault()
         if (!Object.keys(errors).length) {
-            toastify("you signed in successfull", "success")
+            toastify("you signed up successfull", "success")
         } else {
             toastify("Invalid data")
         }
